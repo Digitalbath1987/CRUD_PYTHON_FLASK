@@ -1,0 +1,24 @@
+﻿{% extends 'base.html' %}
+
+
+
+{% block title %}
+mensaje
+{% endblock %}
+
+
+
+{% block content %}
+
+<form method="post">
+    <label>Username</label>
+    <input name="username" required />
+    <label>Email</label>
+    <input name="email" required />
+    <label>Edad</label>
+    <input name="edad" required />
+    <br />
+    <input type="submit" value="guardar" />
+</form>
+
+{% endblock %}
